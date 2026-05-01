@@ -10,8 +10,8 @@ export default async function handler(req, res) {
   try {
 
     const supabase = createClient(
-      process.env.SUPABASE_URL,
-      process.env.SUPABASE_KEY
+      NEXT_PUBLIC_SUPABASE_URL=https://yoekpsiaqnwmcegrgtjr.supabase.co
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=sb_publishable_cQ0zQVB7rN_vT0nf66fqnA_OPEDe023
     );
 
     const { email, password } = req.body;
